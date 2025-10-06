@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Tower Rush</title>
+<link rel="icon" href="images/favicon.svg" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="money-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="logo">Tower Rush</div>
+  <div class="actions"><button id="btn-bonus" class="btn accent">🎁 Получить бонус</button></div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1 class="title">Tower Rush</h1>
+    <p class="subtitle">Построй свой мир и достигни вершины!</p>
+
+    <div class="card reveal">
+      <h2>О игре</h2>
+      <p class="muted">Tower Rush — динамичная игра, где всё решает твоя стратегия. Башня растёт этаж за этажом, множитель увеличивается, а вместе с ним и твой выигрыш. Каждый новый уровень — это риск и шанс на победу</p>
+
+      <div class="actions-col">
+        <a class="btn primary" id="playBtn" href="https://lkxw.cc/cdcc" target="_blank">▶ Играть</a>
+        <a class="btn ghost" id="learnBtn" href="bonus.html">📘 Что за бонусы?</a>
+      </div>
+    </div>
+
+    <div class="promo-card reveal">
+      <h3>Ваш промокод</h3>
+      <div class="promo-code" id="promo">ZWE144</div>
+      <button class="btn copy" id="copyPromo">📋 Скопировать промокод</button>
+      <div class="copy-msg" id="copyMsg" aria-live="polite"></div>
+
+      <div class="player-counter">👥 Сейчас играет: <span id="playerCount">2,174</span></div>
+    </div>
+  </section>
+
+  <section class="how reveal">
+    <h3>Как начать игру</h3>
+    <ul class="steps">
+      <li>Сделай ставку и начни строить дом.</li>
+      <li>Каждый этаж увеличивает множитель.</li>
+      <li>Подумай: продолжать или забрать выигрыш.</li>
+      <li>Используй промокод, чтобы получить бонусы.</li>
+    </ul>
+  </section>
+
+  <section class="faq reveal">
+    <h3>FAQ</h3>
+    <div class="qa">
+      <h3>Можно ли играть бесплатно?</h3>
+      <p class="muted">Да, игра доступна в демо-режиме. Но выигрыши возможны только при игре на реальные ставки.</p>
+      <h3>Что даёт промокод?</h3>
+      <p class="muted">Используя промокод, вы получите приветственные бонусы: дополнительные средства и бесплатные вращения.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">© <span id="year"></span> Tower Rush </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
